@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Life Time</title>
+
+    <style>        body{     text-align: center;      }    </style>
+
+    <script>
+        function lifeInWeeks(age) {
+            //365 days 52 weeks 12 months year for 90 years 
+            var yearsLeft = 90 - age;
+            var monthsLeft = yearsLeft * 12;
+            var weeksLeft = yearsLeft * 52;
+            var daysLeft = yearsLeft * 365;
+        
+            console.log("You have " + daysLeft + " days, " + weeksLeft + " weeks, " + monthsLeft + " months, " + yearsLeft + " years left.");
+        }
+        lifeInWeeks(51);
+    </script>
+</head>
+<body>
+    <h1>Life Time</h1>
+    <p>Reference: </p>
+    <a href="https://waitbutwhy.com/2014/05/life-weeks.html" target="blank">Life in weeks</a>
+</body>
+</html>
